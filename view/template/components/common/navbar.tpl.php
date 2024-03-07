@@ -1,10 +1,6 @@
-<header class="wrapper" style="background-color:#efc900;">
+<header class="wrapper <?php if (isMobile()) echo 'mobile'; ?>">
     <nav class="navbar navbar-expand-lg center-nav transparent navbar-dark">
-        <div class="container flex-lg-row flex-nowrap align-items-center" style="
-    background: rgb(255 255 255 / 85%);
-    padding: 5px;
-    border-radius: 10px;
-">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
             <div class="navbar-brand w-100">
                 <a href="<?= ROOT ?>">
                     <img class="logo-dark" src="<?= IMAGES ?>logotipo.png" width="150" alt="<?= $title ?>" />

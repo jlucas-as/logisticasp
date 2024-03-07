@@ -32,7 +32,7 @@
     </div>
 
     <a href="<?= WHATSAPP_LINK ?>" target="_blank">
-        <img src="<?= IMAGES ?>whats.png" style="position:fixed;bottom:45px;left:15px;width:256px;z-index: 9999;" title="Cotação rápida no WhatsApp" alt="Cotação rápida no WhatsApp">
+        <img src="<?= IMAGES ?>whats.png" style="position:fixed; bottom:45px; <?= isMobile() ? 'right:-165px' : 'left:15px' ?>; width:256px; z-index:9999;" title="Cotação rápida no WhatsApp" alt="Cotação rápida no WhatsApp">
     </a>
 	
 	<?php } ?>
@@ -41,5 +41,25 @@
 	<script src="<?= JS ?>bootstrap.min.js"></script>
 	<script src="<?= JS ?>plugins.js"></script>
     <script src="<?= JS ?>theme.js"></script>
+    <script>
+        var mobile = $('header.wrapper').hasClass('mobile');
+        slide1();
+        
+        function slide1() {
+            if (mobile) $('section.wrapper.angled.lower-start').css('background-image', `url('<?= url() ?>view/asset/img/slide1.png')`);
+            $('img.photoslide').attr('src', `<?= url() ?>view/asset/img/slide1.png`);
+            setTimeout("slide2()", 5000);
+        }
+        function slide2() {
+            if (mobile) $('section.wrapper.angled.lower-start').css('background-image', `url('<?= url() ?>view/asset/img/slide2.png')`);
+            $('img.photoslide').attr('src', `<?= url() ?>view/asset/img/slide2.png`);
+            setTimeout("slide3()", 5000);
+        }
+        function slide3() {
+            if (mobile) $('section.wrapper.angled.lower-start').css('background-image', `url('<?= url() ?>view/asset/img/logistica-sobre-nos.jpg')`);
+            $('img.photoslide').attr('src', `<?= url() ?>view/asset/img/logistica-sobre-nos.jpg`);
+            setTimeout("slide1()", 5000);
+        }
+    </script>
 </body>
 </html>
