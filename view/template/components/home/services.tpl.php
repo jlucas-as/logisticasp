@@ -1,12 +1,12 @@
 <section id="serviços" class="wrapper bg-light" <?php if(isMobile()) echo 'style="margin-top:-155px;"'; ?>>
-    <div class="container pt-8 pb-11">
+    <div class="container pt-8 <?= !isMobile() ? 'pb-11' : 'pb-3' ?>">
         <div class="row">
             <div class="col-lg-8 col-xl-7 col-xxl-6">
                 <h2 class="fs-16 text-uppercase text-line text-primary mb-3">O QUE NÓS FAZEMOS?</h2>
                 <h3 class="display-4 mb-9" <?php if(isMobile()) echo 'style="font-size:24px;"'; ?>>Serviços projetados para atender às suas necessidades.</h3>
             </div>
         </div>
-        <div class="row gx-md-8 gy-8 mb-10 mb-sm-5">
+        <div class="row gx-md-8 gy-8 <?= !isMobile() ? 'mb-8' : 'mb-0' ?> mb-sm-5">
             <div class="col-md-6 col-6 col-lg-3">
                 <img src="<?= url('view/asset/img/armazenamento.png') ?>" alt="">
                 <h4>Armazenamento</h4>

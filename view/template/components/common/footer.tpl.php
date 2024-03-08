@@ -5,19 +5,14 @@
     <footer class="bg-black text-inverse">
         <div class="container pt-4 pb-2">
             <div class="row gy-6 gy-lg-0">
-                <div class="col-md-3">
-                    <div class="widget">
-                        <nav class="nav social social-white" <?php if(isMobile()) echo 'style="justify-content:center;"'; ?>>
-                            <a href="https://www.instagram.com/agenciaevoclick" target="_blank"><i class="uil uil-instagram"></i></a>
-                        </nav>
-                    </div>
-                </div>
                 <div class="col-md-6 text-center">
                     <div class="widget">
-                        <p class="mb-0">© <?= date('Y') ?> - <?= NOME_SITE ?>. Todos os direitos reservados.</p>
+                        <p class="mb-0">© <?= date('Y') ?> - <?= NOME_SITE ?>.
+                        <?php if(isMobile()) echo '<br>'; ?>
+                        Todos os direitos reservados.</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <div class="widget">
                         <p class="mb-0" style="text-align:<?= isMobile() ? 'center' : 'right' ?>;">Feito com <span style="color:red;">❤</span> por <a style="color:green; margin:0" title="Visite nosso site" target="_blank" href="https://evoclick.com.br">EvoClick</a>.</p>
                     </div>
@@ -32,7 +27,7 @@
     </div>
 
     <a href="<?= WHATSAPP_LINK ?>" target="_blank">
-        <img src="<?= IMAGES ?>whats.png" style="position:fixed; bottom:45px; <?= isMobile() ? 'right:-165px' : 'left:15px' ?>; width:256px; z-index:9999;" title="Cotação rápida no WhatsApp" alt="Cotação rápida no WhatsApp">
+        <img src="<?= IMAGES ?>whats.png" style="position:fixed; bottom:<?= isMobile() ? '125px' : '45px' ?>; <?= isMobile() ? 'right:-165px' : 'left:15px' ?>; width:256px; z-index:9999;" title="Cotação rápida no WhatsApp" alt="Cotação rápida no WhatsApp">
     </a>
 	
 	<?php } ?>
