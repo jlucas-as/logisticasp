@@ -5,9 +5,9 @@ if (isset($_GET['sub_page']) AND $_GET['sub_page'] == 'enviar') {
     $mail = new PHPMailer();
     $mail->IsSMTP();
     $mail->IsHTML(true);
-    $mail->Host       = "mail.viaslog.com.br";
-    $mail->Username   = 'site@viaslog.com.br';
-    $mail->Password   = '?Wugla3V)*cJ';
+    $mail->Host       = "mail.logisticasp.com.br";
+    $mail->Username   = 'site@logisticasp.com.br';
+    $mail->Password   = 'nbKSm}X^nkEr';
     $mail->SMTPAuth   = true;
     $mail->SMTPSecure = "ssl";
     $mail->Port       = 465;
@@ -17,7 +17,7 @@ if (isset($_GET['sub_page']) AND $_GET['sub_page'] == 'enviar') {
     $mail->FromName   = $_POST['name'];
     $mail->Subject    = 'Contato do site'; // Assunto da mensagem
 
-    $mail->AddAddress('comercial@viaslog.com.br');
+    $mail->AddAddress('comercial@logisticasp.com.br');
     $mail->addReplyTo($_POST['email'], $_POST['name']);
     $mail->Body       = body($_POST);
     $enviado          = $mail->Send();
