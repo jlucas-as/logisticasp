@@ -45,4 +45,16 @@ header.wrapper.mobile nav .container { padding-right:15px; }
         padding-top: 0;
         padding-bottom: 0;
     }
+    .offcanvas-nav {
+        background:#0076a3;
+        padding: 0;
+    }
+    .offcanvas-nav ul.navbar-nav {
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+    .offcanvas-header {
+        padding: 3rem 2rem;
+        background-color: #fff;
+    }
 }

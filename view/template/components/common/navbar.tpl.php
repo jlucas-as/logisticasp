@@ -9,14 +9,14 @@
             </div>
             <div class="navbar-collapse offcanvas-nav">
                 <div class="offcanvas-header d-lg-none d-xl-none">
-                    <a href="#!"><img class="logo-dark" src="<?= IMAGES ?>logotipo.png" width="151" alt="<?= $title ?>" /></a>
+                    <a href="#!"><img src="<?= IMAGES ?>logotipo.png" width="151" alt="<?= $title ?>" /></a>
                     <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-nav-close" aria-label="Close"></button>
                 </div>
-                <ul class="navbar-nav" style="background-color:#fefefe; border-radius:10px;">
-                    <li class="nav-item"><a class="nav-link" style="padding:15px; color:#252525;" href="<?= ROOT ?>">Página inicial</a></li>
-                    <li class="nav-item"><a class="nav-link" style="padding:15px; color:#252525;" href="#serviços">Serviços</a></li>
-                    <li class="nav-item"><a class="nav-link" style="padding:15px; color:#252525;" href="#sobre-nos">Sobre nós</a></li>
-                    <li class="nav-item"><a class="nav-link" style="padding:15px; color:#252525;" href="#contato">Contato</a></li>
+                <ul class="navbar-nav" <?php if (!isMobile()) echo 'style="background-color:#fefefe; border-radius:10px;"'; ?>>
+                    <li class="nav-item"><a class="nav-link" <?php if (!isMobile()) echo 'style="padding:15px; color:#252525;"'; ?> href="<?= ROOT ?>">Página inicial</a></li>
+                    <li class="nav-item"><a class="nav-link" <?php if (!isMobile()) echo 'style="padding:15px; color:#252525;"'; ?> href="#serviços">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" <?php if (!isMobile()) echo 'style="padding:15px; color:#252525;"'; ?> href="#sobre-nos">Sobre nós</a></li>
+                    <li class="nav-item"><a class="nav-link" <?php if (!isMobile()) echo 'style="padding:15px; color:#252525;"'; ?> href="#contato">Contato</a></li>
                 </ul>
             </div>
             <?php if (isMobile()) { ?>
