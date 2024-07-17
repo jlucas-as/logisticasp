@@ -26,5 +26,5 @@ define('PHONE_LINK', 'tel:'. str_replace(['(', ')', ' ', '-'], '', PHONE_TEXT));
 
 define('EMAIL_TEXT', 'comercial@logisticasp.com.br');
 define('EMAIL_LINK', 'mailto:'. EMAIL_TEXT);
-define('ADDRESS_TEXT', 'Rua Benedita Dornellas Claro, 662 - Jardim Andarai, São Paulo - SP, 02168-020');
-define('MAP_LINK', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.4636804556917!2d-46.576971723789484!3d-23.515819659922442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f3d7be09685%3A0x1eadfb2047a884c1!2sRua%20Benedita%20Dornellas%20Claro%2C%20662%20-%20Jardim%20Andarai%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002168-020!5e0!3m2!1spt-BR!2sbr!4v1709748732310!5m2!1spt-BR!2sbr');
+define('ADDRESS_TEXT', 'R. Sd. Francisco Tamborim, 320 - Parque Novo Mundo, São Paulo - SP, 02176-070');
+define('MAP_LINK', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.456674781756!2d-46.5742016!3d-23.5160718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f3d648333fb%3A0x63e3e67e5ae3adb1!2sR.%20Sd.%20Francisco%20Tamborim%2C%20320%20-%20Parque%20Novo%20Mundo%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002176-070!5e0!3m2!1spt-BR!2sbr!4v1721234940156!5m2!1spt-BR!2sbr');
