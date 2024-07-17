@@ -8,46 +8,46 @@
         </div>
         <div class="row gx-md-8 gy-8 <?= !isMobile() ? 'mb-8' : 'mb-0' ?> mb-sm-5">
             <div class="col-md-6 col-6 col-lg-3">
-                <img src="<?= url('view/asset/img/armazenamento.png') ?>" alt="">
+                <img class="w-100 rounded mb-4" src="<?= url('view/asset/img/armazenamento.webp') ?>" alt="Armazenamento">
                 <h4>Armazenamento</h4>
                 <p class="mb-3">Temos um galpão amplo e espaçoso para armazenarmos as cargas dos nossos clientes</p>
                 <a target="_blank" href="<?= link_zap_info('armazenamento') ?>">Saiba mais</a>
             </div>
             <div class="col-md-6 col-6 col-lg-3">
-                <img src="<?= url('view/asset/img/carga-e-descarga.png') ?>" alt="">
+                <img class="w-100 rounded mb-4" src="<?= url('view/asset/img/carga-e-descarga.webp') ?>" alt="Carga e Descarga">
                 <h4>Carga e Descarga</h4>
                 <p class="mb-3">Nós descarregamos e carregamos os veículos sempre cuidando para não danificar a sua carga</p>
                 <a target="_blank" href="<?= link_zap_info('carga e descarga') ?>">Saiba mais</a>
             </div>
             <div class="col-md-6 col-6 col-lg-3">
-                <img src="<?= url('view/asset/img/movimentacao-de-carga.png') ?>" alt="">
+                <img class="w-100 rounded mb-4" src="<?= url('view/asset/img/movimentacao-de-carga.webp') ?>" alt="Movimentação de Carga">
                 <h4>Movimentação de Carga</h4>
                 <p class="mb-3">Organizamos veículos de acordo com entregas, remontagem de veículo</p>
                 <a target="_blank" href="<?= link_zap_info('movimentação de carga') ?>">Saiba mais</a>
             </div>
             <div class="col-md-6 col-6 col-lg-3">
-                <img src="<?= url('view/asset/img/paletizacao.png') ?>" alt="">
+                <img class="w-100 rounded mb-4" src="<?= url('view/asset/img/paletizacao.webp') ?>" alt="Paletização">
                 <h4>Paletização</h4>
                 <p class="mb-3">Organizamos a carga em paletes, de acordo com a necessidade de nossos clientes</p>
                 <a target="_blank" href="<?= link_zap_info('paletização') ?>">Saiba mais</a>
             </div>
             <div class="col-md-6 col-6 col-lg-3">
-                <img src="<?= url('view/asset/img/pesagem-de-carga.png') ?>" alt="">
-                <h4>Pesagem de Carga</h4>
-                <p class="mb-3">Temos balança com capacidade de 2.500 Kg. Pode ser pesada a carga com palete junto</p>
-                <a target="_blank" href="<?= link_zap_info('pesagem de carga') ?>">Saiba mais</a>
+                <img class="w-100 rounded mb-4" src="<?= url('view/asset/img/transbordo-de-cargas.webp') ?>" alt="Transbordo de carga">
+                <h4>Transbordo de cargas</h4>
+                <p class="mb-3">Transferência de uma carga que está alocada em um meio de transporte para outro</p>
+                <a target="_blank" href="<?= link_zap_info('transbordo de carga') ?>">Saiba mais</a>
             </div>
             <div class="col-md-6 col-6 col-lg-3">
-                <img src="<?= url('view/asset/img/aluguel-de-container.png') ?>" alt="">
+                <img src="<?= url('view/asset/img/coletas-e-distribuicao-de-cargas.webp') ?>" alt="Coletas e Distribuição das cargas">
+                <h4>Coletas e Distribuição das cargas</h4>
+                <p class="mb-3">Realizamos o serviço de coletar e entregar sua carga que estiver conosco até o destinatário</p>
+                <a target="_blank" href="<?= link_zap_info('coleta e distribuição das cargas') ?>">Saiba mais</a>
+            </div>
+            <div class="col-md-6 col-6 col-lg-3">
+                <img class="w-100 rounded mb-4" src="<?= url('view/asset/img/aluguel-de-container.webp') ?>" alt="Aluguel de Container">
                 <h4>Aluguel de Container</h4>
                 <p class="mb-3">Temos balança com capacidade de 2.500 Kg. Pode ser pesada a carga com palete junto</p>
                 <a target="_blank" href="<?= link_zap_info('aluguel de container') ?>">Saiba mais</a>
-            </div>
-            <div class="col-md-6 col-6 col-lg-3">
-                <img src="<?= url('view/asset/img/distribuicao-de-carga.png') ?>" alt="">
-                <h4>Distribuição das cargas</h4>
-                <p class="mb-3">Realizamos o serviço de entregar sua carga que estiver conosco até o destinatário</p>
-                <a target="_blank" href="<?= link_zap_info('distribuição das cargas') ?>">Saiba mais</a>
             </div>
         </div>
     </div>
