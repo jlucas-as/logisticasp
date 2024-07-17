@@ -38,7 +38,7 @@
                 <a target="_blank" href="<?= link_zap_info('transbordo de carga') ?>">Saiba mais</a>
             </div>
             <div class="col-md-6 col-6 col-lg-3">
-                <img src="<?= url('view/asset/img/coletas-e-distribuicao-de-cargas.webp') ?>" alt="Coletas e Distribuição das cargas">
+                <img class="w-100 rounded mb-4" src="<?= url('view/asset/img/coletas-e-distribuicao-de-cargas.webp') ?>" alt="Coletas e Distribuição das cargas">
                 <h4>Coletas e Distribuição das cargas</h4>
                 <p class="mb-3">Realizamos o serviço de coletar e entregar sua carga que estiver conosco até o destinatário</p>
                 <a target="_blank" href="<?= link_zap_info('coleta e distribuição das cargas') ?>">Saiba mais</a>
