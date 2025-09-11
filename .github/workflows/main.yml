@@ -14,6 +14,9 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: 186.209.113.136
-        username: public_html@logisticasp.com.br
-        password: "[fImS7_UA{]="
+        server: ftp.logisticasp1.hospedagemdesites.ws
+        username: logisticasp1
+        password: "logisticaSP@2025"
+        port: 21
+        protocol: ftp
+        server-dir: /public_html/
